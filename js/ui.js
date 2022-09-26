@@ -1,14 +1,13 @@
 class UI {
+  // Constructor function to target content container and display results
     constructor() {
       this.uiContainer = document.getElementById("content");
       this.city;
-      this.defaultCity = "London";
+      this.defaultCity = "Denver";
     }
-  
+
+    // Takes in data from Fetch class and parses through the returned object for target values
     populateUI(data) {
-      //de-structure vars
-  
-      //add them to inner HTML
   
       this.uiContainer.innerHTML = `
           
@@ -28,14 +27,12 @@ class UI {
           `;
     }
   
-    clearUI() {
-      uiContainer.innerHTML = "";
-    }
-  
+    // Gets data from object and saves to local storage
     saveToLS(data) {
       localStorage.setItem("city", JSON.stringify(data));
     }
   
+    // If there's no city in local storage, return default, otherwise return that data inside city
     getFromLS() {
       if (localStorage.getItem("city" == null)) {
         return this.defaultCity;
@@ -45,8 +42,4 @@ class UI {
   
       return this.city;
     }
-  
-    clearLS() {
-      localStorage.clear();
-    }
-  }
+}
