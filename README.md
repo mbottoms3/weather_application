@@ -4,7 +4,7 @@
 
 This application retrieves weather data on a given city when the city is searched
 
-This application allows the user to easily find the temperature, weather conditions, humidity and wind speed of any city they want
+This application allows the user to easily find the temperature, weather conditions, humidity and wind speed of any city they want, including the following 5 days forecast
 
 ## Table of Contents
 
@@ -43,4 +43,4 @@ If there are any questions please reach out to me at bottoms.micah.3@gmail.com
 
 Github profile: [mbottoms3](https://github.com/mbottoms3)
 
-![screenshot of app](./images/app_screenshot.png "Screenshot of weather app")
+![screenshot of app](./images/new_app_screenshot.png "Screenshot of weather app")
