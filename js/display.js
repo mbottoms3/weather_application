@@ -32,46 +32,67 @@ class Display {
                 <h4>5 Day Forecast</h4>
               </div>
           </div>
-          <div class="card mx-auto mt-5" style="width: 18rem;">
-              <div class="card-body justify-content-center">
+          <div class="row">
+            <div class="col">
+              <div class="card mx-auto mt-5" style="width: 18rem;">
+                <div class="card-body justify-content-center">
                   <h6 class="card-subtitle mb-2 text-muted">Average temperature: ${data.list[8].main.temp} °F</h6>
                   <p class="card-text">Weather conditions are described as: ${data.list[8].weather[0].description}</p>
                   <p class="card-text">Wind: ${data.list[8].wind.speed} MPH</p>
                   <p class="card-text">Humidity: ${data.list[8].main.humidity}%</p>
+                </div>
               </div>
-          </div>
-          <div class="card mx-auto mt-5" style="width: 18rem;">
-              <div class="card-body justify-content-center">
+            </div>
+
+            <div class="col">
+              <div class="card mx-auto mt-5" style="width: 18rem;">
+                <div class="card-body justify-content-center">
                   <h6 class="card-subtitle mb-2 text-muted">Average temperature: ${data.list[16].main.temp} °F</h6>
                   <p class="card-text">Weather conditions are described as: ${data.list[16].weather[0].description}</p>
                   <p class="card-text">Wind: ${data.list[16].wind.speed} MPH</p>
                   <p class="card-text">Humidity: ${data.list[16].main.humidity}%</p>
+                </div>
               </div>
-          </div>
-          <div class="card mx-auto mt-5" style="width: 18rem;">
-              <div class="card-body justify-content-center">
+            </div>
+
+            <div class="col">
+              <div class="card mx-auto mt-5" style="width: 18rem;">
+                <div class="card-body justify-content-center">
                   <h6 class="card-subtitle mb-2 text-muted">Average temperature: ${data.list[24].main.temp} °F</h6>
                   <p class="card-text">Weather conditions are described as: ${data.list[24].weather[0].description}</p>
                   <p class="card-text">Wind: ${data.list[24].wind.speed} MPH</p>
                   <p class="card-text">Humidity: ${data.list[24].main.humidity}%</p>
+                </div>
               </div>
-          </div>
-          <div class="card mx-auto mt-5" style="width: 18rem;">
-              <div class="card-body justify-content-center">
+            </div>
+
+            <div class="col">
+              <div class="card mx-auto mt-5" style="width: 18rem;">
+                <div class="card-body justify-content-center">
                   <h6 class="card-subtitle mb-2 text-muted">Average temperature: ${data.list[32].main.temp} °F</h6>
                   <p class="card-text">Weather conditions are described as: ${data.list[32].weather[0].description}</p>
                   <p class="card-text">Wind: ${data.list[32].wind.speed} MPH</p>
                   <p class="card-text">Humidity: ${data.list[32].main.humidity}%</p>
+                </div>
               </div>
-          </div>
-          <div class="card mx-auto mt-5" style="width: 18rem;">
-              <div class="card-body justify-content-center">
+            </div>
+
+            <div class="col">
+              <div class="card mx-auto mt-5" style="width: 18rem;">
+                <div class="card-body justify-content-center">
                   <h6 class="card-subtitle mb-2 text-muted">Average temperature: ${data.list[39].main.temp} °F</h6>
                   <p class="card-text">Weather conditions are described as: ${data.list[39].weather[0].description}</p>
                   <p class="card-text">Wind: ${data.list[39].wind.speed} MPH</p>
                   <p class="card-text">Humidity: ${data.list[39].main.humidity}%</p>
+                </div>
               </div>
+            </div>
           </div>
+          
+          
+          
+          
+          
           `;
     }
   
